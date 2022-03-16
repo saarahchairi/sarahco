@@ -12,7 +12,6 @@ body {
     border-radius: 10px;
 }
 .h1:hover{
-    font-size: 50px;
     text-shadow: 2px 2px 4px white;
 }
 .form-control:focus{
@@ -33,7 +32,10 @@ ul{
     text-decoration: none;
     color:whitesmoke
 }
-@media screen and (max-width: 768px){
+.container{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+    @media screen and (max-width: 768px){
     body{
         background-color: rgb(204, 166, 166) 
     }
