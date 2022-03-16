@@ -2,3 +2,35 @@ body {
     font-family: 'Signika', sans-serif;
     background-color: rgb(141, 127, 127);
 }
+.card-body-index{
+    margin-bottom: 25%;
+    margin-top: 25%;
+    font-size: 1em;
+}
+.nav-link:hover{
+    background-color: pink;
+    border-radius: 10px;
+}
+.form-control:focus{
+    color: gray;
+}
+.btn:active{
+    color:rgb(221, 67, 93);
+    font-style: italic;
+}
+ul{
+    list-style-type: none;
+}
+.lien{
+    text-decoration: none;
+    color:whitesmoke
+}
+.nav-link{
+    text-decoration: none;
+    color:whitesmoke
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: rgb(204, 166, 166) 
+    }
+}
